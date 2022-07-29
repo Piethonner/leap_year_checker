@@ -1,3 +1,4 @@
+## That took me a while because I'm bad and not thinking at midnight on Saturdays I guess... ##
 year = float(input("Which year do you want to check?\n"))
 #First requirement is: year must be evenly divisible by 4#
 #Second requirement is: year must not be evenly divisible by 100 and if it is:#
