@@ -1,11 +1,10 @@
-## That took me a while because I'm bad and not thinking at midnight on Saturdays I guess... ##
+## Leap Year checker ##
+
 year = float(input("Which year do you want to check?\n"))
-#First requirement is: year must be evenly divisible by 4#
-#Second requirement is: year must not be evenly divisible by 100 and if it is:#
-#Third requirement is: year must be evenly divisible by 400#
 first_requirement = year%4
 second_requirement = year%100
 third_requirement = year%400
+
 if first_requirement == 0 and second_requirement != 0 or third_requirement == 0:
   print("It's a leap year.")
 else:
