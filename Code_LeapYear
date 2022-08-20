@@ -1,12 +1,11 @@
-## Leap Year checker ##
+# Leap Year checker #
 
 year = float(input("Which year do you want to check?\n"))
-first_requirement = year%4
-second_requirement = year%100
-third_requirement = year%400
-
+first_requirement = year % 4
+second_requirement = year % 100
+third_requirement = year % 400
 
 if first_requirement == 0 and second_requirement != 0 or third_requirement == 0:
-  print("It's a leap year.")
+    print("It's a leap year.")
 else:
-  print("It's not a leap year.")
+    print("It's not a leap year.")
